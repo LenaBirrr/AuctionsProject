@@ -20,7 +20,7 @@ namespace Repository.Data
         public DbSet<Genre> Genres { get; set; }
         public DbSet<Subtype> Subtypes { get; set; }
 
-        public Context(DbContextOptions<Context> options) : base(options) {Database.EnsureCreated(); }
+        public Context(DbContextOptions<Context> options) : base(options) { Database.EnsureDeleted(); Database.EnsureCreated(); }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
 		{
             foreach(var relashionship in modelBuilder.Model
@@ -149,7 +149,7 @@ namespace Repository.Data
              }
              );
 
-            modelBuilder.Entity<Auction>().HasData
+        /*    modelBuilder.Entity<Auction>().HasData
             (
             new Auction
             {
@@ -158,7 +158,7 @@ namespace Repository.Data
                 Topic = "Живопись",
                 Address = "221 B Baker St, London, England",
                 AuctionHouseId = 1,
-            });
+            });*/
             
             modelBuilder.Entity<Business.Entities.Type>().HasData
                 (
@@ -222,7 +222,7 @@ namespace Repository.Data
                     SubtypeId = 1
                 }
              );
-
+/*
             modelBuilder.Entity<User>().HasData
             (
                  new User
@@ -251,9 +251,9 @@ namespace Repository.Data
                         UserId = 2,
                         AuctionId = 1
                     }
-                );
+                );*/
 
-            modelBuilder.Entity<AuctionItem>().HasData
+          /*  modelBuilder.Entity<AuctionItem>().HasData
                 (
                 new AuctionItem
                 {
@@ -267,8 +267,8 @@ namespace Repository.Data
                     Name = "Предмет"
                 }
                 );
-
-            modelBuilder.Entity<Lot>().HasData
+*/
+          /*  modelBuilder.Entity<Lot>().HasData
                 (
                 new Lot
                 {
@@ -279,7 +279,7 @@ namespace Repository.Data
                     ByuerId=1,
                     SellerId=2,
                 }
-                );
+                );*/
             base.OnModelCreating(modelBuilder);
 
 		}

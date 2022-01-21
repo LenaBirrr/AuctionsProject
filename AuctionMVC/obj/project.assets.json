@@ -6226,11 +6226,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\AuctionsProject\\AuctionMVC\\AuctionMVC.csproj",
+      "projectUniqueName": "D:\\AuctionsProject — копия\\AuctionMVC\\AuctionMVC.csproj",
       "projectName": "AuctionMVC",
-      "projectPath": "D:\\AuctionsProject\\AuctionMVC\\AuctionMVC.csproj",
+      "projectPath": "D:\\AuctionsProject — копия\\AuctionMVC\\AuctionMVC.csproj",
       "packagesPath": "C:\\Users\\Елена\\.nuget\\packages\\",
-      "outputPath": "D:\\AuctionsProject\\AuctionMVC\\obj\\",
+      "outputPath": "D:\\AuctionsProject — копия\\AuctionMVC\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Елена\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -6247,11 +6247,11 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "D:\\AuctionsProject\\Business.Services\\Business.Services.csproj": {
-              "projectPath": "D:\\AuctionsProject\\Business.Services\\Business.Services.csproj"
+            "D:\\AuctionsProject — копия\\Business.Services\\Business.Services.csproj": {
+              "projectPath": "D:\\AuctionsProject — копия\\Business.Services\\Business.Services.csproj"
             },
-            "D:\\AuctionsProject\\Repository\\Repository.csproj": {
-              "projectPath": "D:\\AuctionsProject\\Repository\\Repository.csproj"
+            "D:\\AuctionsProject — копия\\Repository\\Repository.csproj": {
+              "projectPath": "D:\\AuctionsProject — копия\\Repository\\Repository.csproj"
             }
           }
         }

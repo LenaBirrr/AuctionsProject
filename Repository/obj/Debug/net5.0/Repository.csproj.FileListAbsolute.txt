@@ -17,3 +17,22 @@ D:\AuctionsProject\Repository\obj\Debug\net5.0\Repository.pdb
 D:\AuctionsProject\Repository\bin\Debug\net5.0\Repository.runtimeconfig.json
 D:\AuctionsProject\Repository\bin\Debug\net5.0\Repository.runtimeconfig.dev.json
 D:\AuctionsProject\Repository\obj\Debug\net5.0\Repository.genruntimeconfig.cache
+D:\AuctionsProject — копия\Repository\bin\Debug\net5.0\Repository.deps.json
+D:\AuctionsProject — копия\Repository\bin\Debug\net5.0\Repository.runtimeconfig.json
+D:\AuctionsProject — копия\Repository\bin\Debug\net5.0\Repository.runtimeconfig.dev.json
+D:\AuctionsProject — копия\Repository\bin\Debug\net5.0\Repository.dll
+D:\AuctionsProject — копия\Repository\bin\Debug\net5.0\ref\Repository.dll
+D:\AuctionsProject — копия\Repository\bin\Debug\net5.0\Repository.pdb
+D:\AuctionsProject — копия\Repository\bin\Debug\net5.0\Business.dll
+D:\AuctionsProject — копия\Repository\bin\Debug\net5.0\Business.Interop.dll
+D:\AuctionsProject — копия\Repository\bin\Debug\net5.0\Business.pdb
+D:\AuctionsProject — копия\Repository\bin\Debug\net5.0\Business.Interop.pdb
+D:\AuctionsProject — копия\Repository\obj\Debug\net5.0\Repository.csproj.AssemblyReference.cache
+D:\AuctionsProject — копия\Repository\obj\Debug\net5.0\Repository.GeneratedMSBuildEditorConfig.editorconfig
+D:\AuctionsProject — копия\Repository\obj\Debug\net5.0\Repository.AssemblyInfoInputs.cache
+D:\AuctionsProject — копия\Repository\obj\Debug\net5.0\Repository.AssemblyInfo.cs
+D:\AuctionsProject — копия\Repository\obj\Debug\net5.0\Repository.csproj.CoreCompileInputs.cache
+D:\AuctionsProject — копия\Repository\obj\Debug\net5.0\Repository.dll
+D:\AuctionsProject — копия\Repository\obj\Debug\net5.0\ref\Repository.dll
+D:\AuctionsProject — копия\Repository\obj\Debug\net5.0\Repository.pdb
+D:\AuctionsProject — копия\Repository\obj\Debug\net5.0\Repository.genruntimeconfig.cache

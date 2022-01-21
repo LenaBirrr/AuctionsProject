@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "H1xB0vvjqorBc5ahHDW+EyQ86i/eXpGJV4RTzzCxR15JEkvEdSpqhrbb4S7riYfyXnJui29BOKvuEh9zYMHDgQ==",
+  "dgSpecHash": "cq7xXkdEdfuUXkTbsrmdrvbJna22ijt75uDUXBrd2Lqy9GQC11c2rc/TCZ+c/lraseBOkcwZdsyzfhhyEN7swg==",
   "success": true,
-  "projectFilePath": "D:\\AuctionsProject\\AuctionMVC\\AuctionMVC.csproj",
+  "projectFilePath": "D:\\AuctionsProject — копия\\AuctionMVC\\AuctionMVC.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Елена\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\Елена\\.nuget\\packages\\dataannotationsextensions\\5.0.1.27\\dataannotationsextensions.5.0.1.27.nupkg.sha512",

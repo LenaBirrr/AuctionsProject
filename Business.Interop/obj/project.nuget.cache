@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "4wiFzF78HNLCWH//4h7n9eIANQISHJEIVj2mvbA3FRhUfyCG6OvRpdVRJy20OZ59rE6C+ZUXDAEVlh4GBZOoQA==",
+  "dgSpecHash": "D1+vVrz4E3MP/2DvZ5L9lpXoHpyVQW/I7AB9HQ1jKSdHnTUpfMbz4+i7IyTWGUAOz0f1zC+z33jxjyl+nNJpIQ==",
   "success": true,
-  "projectFilePath": "D:\\AuctionsProject\\Business.Interop\\Business.Interop.csproj",
+  "projectFilePath": "D:\\AuctionsProject — копия\\Business.Interop\\Business.Interop.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Елена\\.nuget\\packages\\dataannotationsextensions\\5.0.1.27\\dataannotationsextensions.5.0.1.27.nupkg.sha512"
   ],

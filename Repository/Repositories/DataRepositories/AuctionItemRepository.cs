@@ -49,13 +49,13 @@ namespace Repository.Repositories.DataRepositories
 		protected override IQueryable<AuctionItem> QueryImplementation()
 		{
 			return _context.AuctionItems
-				.Include(r => r.Lots)
+				//.Include(r => r.Lots)
 				.Include(r => r.Epoch)
 				.Include(r => r.Genre)
-					.ThenInclude(i=>i.Subtype)
-						.ThenInclude(q=>q.Type)
-				.Include(r => r.State)
-				.Include(r => r.Owner);
+					.ThenInclude(i => i.Subtype)
+						.ThenInclude(q => q.Type)
+				.Include(r => r.State);
+				//.Include(r => r.Owner);
 
 		}
 		#endregion

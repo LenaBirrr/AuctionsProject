@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\AuctionsProject\\Business.Interop\\Business.Interop.csproj": {}
+    "D:\\AuctionsProject — копия\\Business.Interop\\Business.Interop.csproj": {}
   },
   "projects": {
-    "D:\\AuctionsProject\\Business.Interop\\Business.Interop.csproj": {
+    "D:\\AuctionsProject — копия\\Business.Interop\\Business.Interop.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\AuctionsProject\\Business.Interop\\Business.Interop.csproj",
+        "projectUniqueName": "D:\\AuctionsProject — копия\\Business.Interop\\Business.Interop.csproj",
         "projectName": "Business.Interop",
-        "projectPath": "D:\\AuctionsProject\\Business.Interop\\Business.Interop.csproj",
+        "projectPath": "D:\\AuctionsProject — копия\\Business.Interop\\Business.Interop.csproj",
         "packagesPath": "C:\\Users\\Елена\\.nuget\\packages\\",
-        "outputPath": "D:\\AuctionsProject\\Business.Interop\\obj\\",
+        "outputPath": "D:\\AuctionsProject — копия\\Business.Interop\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Елена\\AppData\\Roaming\\NuGet\\NuGet.Config",

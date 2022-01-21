@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\AuctionsProject\\Repository\\Repository.csproj": {}
+    "D:\\AuctionsProject — копия\\Repository\\Repository.csproj": {}
   },
   "projects": {
-    "D:\\AuctionsProject\\Business.Interop\\Business.Interop.csproj": {
+    "D:\\AuctionsProject — копия\\Business.Interop\\Business.Interop.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\AuctionsProject\\Business.Interop\\Business.Interop.csproj",
+        "projectUniqueName": "D:\\AuctionsProject — копия\\Business.Interop\\Business.Interop.csproj",
         "projectName": "Business.Interop",
-        "projectPath": "D:\\AuctionsProject\\Business.Interop\\Business.Interop.csproj",
+        "projectPath": "D:\\AuctionsProject — копия\\Business.Interop\\Business.Interop.csproj",
         "packagesPath": "C:\\Users\\Елена\\.nuget\\packages\\",
-        "outputPath": "D:\\AuctionsProject\\Business.Interop\\obj\\",
+        "outputPath": "D:\\AuctionsProject — копия\\Business.Interop\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Елена\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -64,14 +64,14 @@
         }
       }
     },
-    "D:\\AuctionsProject\\Bussiness\\Business.csproj": {
+    "D:\\AuctionsProject — копия\\Bussiness\\Business.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\AuctionsProject\\Bussiness\\Business.csproj",
+        "projectUniqueName": "D:\\AuctionsProject — копия\\Bussiness\\Business.csproj",
         "projectName": "Business",
-        "projectPath": "D:\\AuctionsProject\\Bussiness\\Business.csproj",
+        "projectPath": "D:\\AuctionsProject — копия\\Bussiness\\Business.csproj",
         "packagesPath": "C:\\Users\\Елена\\.nuget\\packages\\",
-        "outputPath": "D:\\AuctionsProject\\Bussiness\\obj\\",
+        "outputPath": "D:\\AuctionsProject — копия\\Bussiness\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Елена\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -88,8 +88,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "D:\\AuctionsProject\\Business.Interop\\Business.Interop.csproj": {
-                "projectPath": "D:\\AuctionsProject\\Business.Interop\\Business.Interop.csproj"
+              "D:\\AuctionsProject — копия\\Business.Interop\\Business.Interop.csproj": {
+                "projectPath": "D:\\AuctionsProject — копия\\Business.Interop\\Business.Interop.csproj"
               }
             }
           }
@@ -122,14 +122,14 @@
         }
       }
     },
-    "D:\\AuctionsProject\\Repository\\Repository.csproj": {
+    "D:\\AuctionsProject — копия\\Repository\\Repository.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\AuctionsProject\\Repository\\Repository.csproj",
+        "projectUniqueName": "D:\\AuctionsProject — копия\\Repository\\Repository.csproj",
         "projectName": "Repository",
-        "projectPath": "D:\\AuctionsProject\\Repository\\Repository.csproj",
+        "projectPath": "D:\\AuctionsProject — копия\\Repository\\Repository.csproj",
         "packagesPath": "C:\\Users\\Елена\\.nuget\\packages\\",
-        "outputPath": "D:\\AuctionsProject\\Repository\\obj\\",
+        "outputPath": "D:\\AuctionsProject — копия\\Repository\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Елена\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -146,8 +146,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "D:\\AuctionsProject\\Bussiness\\Business.csproj": {
-                "projectPath": "D:\\AuctionsProject\\Bussiness\\Business.csproj"
+              "D:\\AuctionsProject — копия\\Bussiness\\Business.csproj": {
+                "projectPath": "D:\\AuctionsProject — копия\\Bussiness\\Business.csproj"
               }
             }
           }

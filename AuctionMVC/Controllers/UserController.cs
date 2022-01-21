@@ -28,11 +28,11 @@ namespace AuctionMVC.Controllers
             try
             {
                 _userService.DeleteUser(id);
-                return View(true);
+                return RedirectToAction(nameof(Index));
             }
             catch
             {
-                return View(false);
+                return View();
             }
         }
         public IActionResult Create()

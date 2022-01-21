@@ -49,8 +49,8 @@ namespace Repository.Repositories.DataRepositories
 		protected override IQueryable<Lot> QueryImplementation()
 		{
 			return _context.Lots
-				.Include(r => r.Seller)
-				.Include(r => r.Byuer)
+				//.Include(r => r.Seller)
+				//.Include(r => r.Byuer)
 				.Include(r => r.Auction)
 				.Include(r => r.AuctionItem);
 

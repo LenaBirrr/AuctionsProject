@@ -245,11 +245,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\AuctionsProject\\Business.Services\\Business.Services.csproj",
+      "projectUniqueName": "D:\\AuctionsProject — копия\\Business.Services\\Business.Services.csproj",
       "projectName": "Business.Services",
-      "projectPath": "D:\\AuctionsProject\\Business.Services\\Business.Services.csproj",
+      "projectPath": "D:\\AuctionsProject — копия\\Business.Services\\Business.Services.csproj",
       "packagesPath": "C:\\Users\\Елена\\.nuget\\packages\\",
-      "outputPath": "D:\\AuctionsProject\\Business.Services\\obj\\",
+      "outputPath": "D:\\AuctionsProject — копия\\Business.Services\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Елена\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -266,8 +266,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "D:\\AuctionsProject\\Bussiness\\Business.csproj": {
-              "projectPath": "D:\\AuctionsProject\\Bussiness\\Business.csproj"
+            "D:\\AuctionsProject — копия\\Bussiness\\Business.csproj": {
+              "projectPath": "D:\\AuctionsProject — копия\\Bussiness\\Business.csproj"
             }
           }
         }

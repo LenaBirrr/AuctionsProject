@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "DIee/X7SSYyAJWc139OiyzKo0MNAbPJL35mNXSJ1T0uXgZx+Mlqz5AI+72YASMMi1ivfapLqKgFlRGqL3ORuqA==",
+  "dgSpecHash": "G0MFHHdlegt435JwOTEhswpD1XeMXNqkgdMCimhmuOgaYfa2Nrczfoh9HPmth0z+J2NMdNXaMrDjuoSpRPy3YQ==",
   "success": true,
-  "projectFilePath": "D:\\AuctionsProject\\Repository\\Repository.csproj",
+  "projectFilePath": "D:\\AuctionsProject — копия\\Repository\\Repository.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Елена\\.nuget\\packages\\dataannotationsextensions\\5.0.1.27\\dataannotationsextensions.5.0.1.27.nupkg.sha512",
     "C:\\Users\\Елена\\.nuget\\packages\\entityframework\\6.4.4\\entityframework.6.4.4.nupkg.sha512",
