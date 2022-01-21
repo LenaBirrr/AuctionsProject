@@ -1,0 +1,55 @@
+﻿@model Business.Interop.Data.AuctionDto
+
+@{
+    ViewData["Title"] = "Создание аукциона";
+}
+
+<h2>Создаем</h2>
+
+<hr />
+<div class="row">
+    <div class="col-md-12">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Address" class="control-label">Адрес</label>
+                <input asp-for="Address" class="form-control" placeholder="Введите адрес" />
+                <span asp-validation-for="Address" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Topic" class="control-label">Тематика</label>
+                <textarea asp-for="Topic" rows="5" class="form-control" placeholder="Введите тематику"></textarea>
+                <span asp-validation-for="Topic" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="AuctionHouseId" class="control-label">Аукционный дом</label>
+                <select asp-antiforgery="true" data-live-search="true" autocomplete="true" asp-for="AuctionHouseId" class="form-control" asp-items="ViewBag.AuctionHouseIds">
+                    <option selected="selected" value=""></option>
+
+                </select>
+                <span asp-validation-for="AuctionHouseId" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="Date" class="control-label">Дата и время проведения</label>
+                <input type="datetime-local" asp-for="Date" rows="5" class="form-control">
+                <span asp-validation-for="Date" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <input style="background-color:chartreuse" type="submit" value="Создать" class="btn btn-default" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Назад</a>
+</div>
+
+@section Scripts {
+    <script src="~/js/AuctionHouseList.js"></script>
+
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

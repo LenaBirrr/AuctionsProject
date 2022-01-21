@@ -1,0 +1,86 @@
+﻿@model Business.Interop.Data.AuctionItemDto
+
+@{
+    ViewData["Title"] = "Редактирование вещи";
+}
+
+<h2>Редактируем</h2>
+
+<hr />
+<div class="row">
+    <div class="col-md-12">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+            <div class="form-group">
+                <label asp-for="Id" class="control-label"></label>
+                <input asp-for="Id" class="form-control" readonly="readonly"/>
+                <span asp-validation-for="Id" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Name" class="control-label">Название</label>
+                <input asp-for="Name" class="form-control" placeholder="Название" />
+                <span asp-validation-for="Name" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ValPrice" class="control-label">Оценочная стоимость</label>
+                <textarea asp-for="ValPrice" rows="5" class="form-control" placeholder="Оценочная стоимость"></textarea>
+                <span asp-validation-for="ValPrice" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="CreationDate" class="control-label"></label>
+                <input type="datetime-local" asp-for="CreationDate" rows="5" class="form-control" placeholder="Дата создания">
+                <span asp-validation-for="CreationDate" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="GenreId" class="control-label"></label>
+                <select asp-antiforgery="true" data-live-search="true" autocomplete="true" asp-for="GenreId" class="form-control" asp-items="ViewBag.GenreIds">
+                    <option selected="selected" value=""></option>
+                </select>
+                <span asp-validation-for="GenreId" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="EpochId" class="control-label"></label>
+                <select asp-antiforgery="true" data-live-search="true" autocomplete="true" asp-for="EpochId" class="form-control" asp-items="ViewBag.EpochIds">
+                    <option selected="selected" value=""></option>
+                </select>
+                <span asp-validation-for="EpochId" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="StateId" class="control-label"></label>
+                <select asp-antiforgery="true" data-live-search="true" autocomplete="true" asp-for="StateId" class="form-control" asp-items="ViewBag.StateIds">
+                    <option selected="selected" value=""></option>
+                </select>
+                <span asp-validation-for="StateId" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="OwnerId" class="control-label"></label>
+                <select asp-antiforgery="true" data-live-search="true" autocomplete="true" asp-for="OwnerId" class="form-control" asp-items="ViewBag.UserIds">
+                    <option selected="selected" value=""></option>
+                </select>
+                <span asp-validation-for="OwnerId" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <input style="background-color:chartreuse" type="submit" value="Обновить" class="btn btn-default" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Назад</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+    <script src="~/js/GenreList.js"></script>
+    <script src="~/js/OwnerList.js"></script>
+    <script src="~/js/EpochList.js"></script>
+    <script src="~/js/StateList.js"></script>
+}

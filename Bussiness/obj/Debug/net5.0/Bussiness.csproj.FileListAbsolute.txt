@@ -1,0 +1,5 @@
+D:\AuctionsProject\Bussiness\obj\Debug\net5.0\Bussiness.csproj.AssemblyReference.cache
+D:\AuctionsProject\Bussiness\obj\Debug\net5.0\Bussiness.GeneratedMSBuildEditorConfig.editorconfig
+D:\AuctionsProject\Bussiness\obj\Debug\net5.0\Bussiness.AssemblyInfoInputs.cache
+D:\AuctionsProject\Bussiness\obj\Debug\net5.0\Bussiness.AssemblyInfo.cs
+D:\AuctionsProject\Bussiness\obj\Debug\net5.0\Bussiness.csproj.CoreCompileInputs.cache

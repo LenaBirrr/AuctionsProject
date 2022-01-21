@@ -1,0 +1,30 @@
+﻿@model IEnumerable<Business.Interop.Data.AuctionDto>
+
+@{
+    ViewData["Title"] = "Аукционы";
+}
+
+<br />
+<div class="container" style="border-radius: 5px;">
+    <div class="row" style="background-color:aquamarine; border-radius:3px;">
+        <div class="col-3">Тема</div>
+        <div class="col-3">Дата и время</div>
+        <div class="col-6"><a asp-controller="Auction" asp-action="Create">Добавить</a></div>
+
+    </div>
+</div>
+<br />
+
+@foreach (var item in Model)
+{
+    <div class="container" style="border-radius: 5px;">
+        <div class="row" style="background-color:#effdff; border-radius:3px;">
+            <div class="col-3">@item.Topic</div>
+            <div class="col-3">@item.Date</div>
+            <div class="col-3"><a asp-controller="Auction" asp-action="Delete" asp-route-id="@item.Id">Удалить</a></div>
+            <div class="col-3"><a asp-controller="Auction" asp-action="Edit" asp-route-id="@item.Id">Редактировать</a></div>
+
+        </div>
+    </div>
+    <br />
+}
