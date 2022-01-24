@@ -20,7 +20,7 @@ namespace Repository.Data
         public DbSet<Genre> Genres { get; set; }
         public DbSet<Subtype> Subtypes { get; set; }
 
-        public Context(DbContextOptions<Context> options) : base(options) {/* Database.EnsureDeleted(); */Database.EnsureCreated(); }
+        public Context(DbContextOptions<Context> options) : base(options) { Database.EnsureCreated(); }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
 		{
             foreach(var relashionship in modelBuilder.Model

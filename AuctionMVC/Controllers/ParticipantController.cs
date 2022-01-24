@@ -73,6 +73,14 @@ namespace AuctionMVC.Controllers
 
                 return View(dto);
             }
+            foreach(var p in _participantService.GetByAuction(dto.AuctionId))
+            {
+                if(p.UserId==dto.UserId)
+                {
+                    return View("NotAllowedParticipant");
+                }
+            }
+
 
             _participantService.CreateParticipant(dto);
 

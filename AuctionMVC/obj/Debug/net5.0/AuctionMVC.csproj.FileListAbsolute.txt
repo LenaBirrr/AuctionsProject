@@ -222,3 +222,4 @@ D:\AuctionsProject — копия\AuctionMVC\obj\Debug\net5.0\AuctionMVC.dll
 D:\AuctionsProject — копия\AuctionMVC\obj\Debug\net5.0\ref\AuctionMVC.dll
 D:\AuctionsProject — копия\AuctionMVC\obj\Debug\net5.0\AuctionMVC.pdb
 D:\AuctionsProject — копия\AuctionMVC\obj\Debug\net5.0\AuctionMVC.genruntimeconfig.cache
+D:\AuctionsProject — копия\AuctionMVC\obj\Debug\net5.0\Razor\Views\Participant\NotAllowedParticipant.cshtml.g.cs

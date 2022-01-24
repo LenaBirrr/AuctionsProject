@@ -15,3 +15,20 @@ D:\AuctionsProject\Business.Services\obj\Debug\net5.0\Business.Services.dll
 D:\AuctionsProject\Business.Services\obj\Debug\net5.0\ref\Business.Services.dll
 D:\AuctionsProject\Business.Services\obj\Debug\net5.0\Business.Services.pdb
 D:\AuctionsProject\Business.Services\obj\Debug\net5.0\Business.Services.csproj.CopyComplete
+D:\AuctionsProject — копия\Business.Services\bin\Debug\net5.0\Business.Services.deps.json
+D:\AuctionsProject — копия\Business.Services\bin\Debug\net5.0\Business.Services.dll
+D:\AuctionsProject — копия\Business.Services\bin\Debug\net5.0\ref\Business.Services.dll
+D:\AuctionsProject — копия\Business.Services\bin\Debug\net5.0\Business.Services.pdb
+D:\AuctionsProject — копия\Business.Services\bin\Debug\net5.0\Business.dll
+D:\AuctionsProject — копия\Business.Services\bin\Debug\net5.0\Business.Interop.dll
+D:\AuctionsProject — копия\Business.Services\bin\Debug\net5.0\Business.pdb
+D:\AuctionsProject — копия\Business.Services\bin\Debug\net5.0\Business.Interop.pdb
+D:\AuctionsProject — копия\Business.Services\obj\Debug\net5.0\Business.Services.csproj.AssemblyReference.cache
+D:\AuctionsProject — копия\Business.Services\obj\Debug\net5.0\Business.Services.GeneratedMSBuildEditorConfig.editorconfig
+D:\AuctionsProject — копия\Business.Services\obj\Debug\net5.0\Business.Services.AssemblyInfoInputs.cache
+D:\AuctionsProject — копия\Business.Services\obj\Debug\net5.0\Business.Services.AssemblyInfo.cs
+D:\AuctionsProject — копия\Business.Services\obj\Debug\net5.0\Business.Services.csproj.CoreCompileInputs.cache
+D:\AuctionsProject — копия\Business.Services\obj\Debug\net5.0\Business.Services.csproj.CopyComplete
+D:\AuctionsProject — копия\Business.Services\obj\Debug\net5.0\Business.Services.dll
+D:\AuctionsProject — копия\Business.Services\obj\Debug\net5.0\ref\Business.Services.dll
+D:\AuctionsProject — копия\Business.Services\obj\Debug\net5.0\Business.Services.pdb

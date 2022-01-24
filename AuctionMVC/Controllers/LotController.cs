@@ -55,8 +55,8 @@ namespace AuctionMVC.Controllers
             ViewData["AuctionIds"] = new SelectList(_auctionService.GetAll(),
               dataValueField: nameof(AuctionDto.Id),
               dataTextField: nameof(AuctionDto.Id));
-            ViewData["ParticipantIds"] = new SelectList(_participantService.GetAll(),
-                dataValueField: nameof(ParticipantDto.Id),
+            ViewData["ParticipantIds"] = new SelectList(_participantService.GetByAuction(dto.AuctionId),
+            dataValueField: nameof(ParticipantDto.Id),
                 dataTextField: nameof(ParticipantDto.Id));
             ViewData["AuctionItemIds"] = new SelectList(_auctionItemService.GetAll(),
                dataValueField: nameof(AuctionItemDto.Id),
@@ -78,12 +78,24 @@ namespace AuctionMVC.Controllers
             return View();
         }
 
+        public ActionResult CreateSecondStep(LotDto dto)
+        {
+            if (ModelState.IsValid)
+            {
+                _lotService.CreateLot(dto);
+                return RedirectToAction(nameof(Index));
+            }
+            else
+            {
+                return View();
+            }
+        }
   
         [HttpPost]
         [ValidateAntiForgeryToken]
         public ActionResult Create(LotDto dto)
         {
-            if (!ModelState.IsValid)
+            if (ModelState.IsValid)
             {
                 ViewData["ParticipantIds"] = new SelectList(_participantService.GetByAuction(dto.AuctionId),
                   dataValueField: nameof(ParticipantDto.Id),
@@ -93,11 +105,7 @@ namespace AuctionMVC.Controllers
                    dataTextField: nameof(AuctionItemDto.Id));
                 return View("CreateSecondStep", dto);
             }
-
-            _lotService.CreateLot(dto);
-            return RedirectToAction(nameof(Index));
-
-
+            return View();
         }
     }
 }

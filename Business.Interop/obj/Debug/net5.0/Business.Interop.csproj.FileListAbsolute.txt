@@ -10,3 +10,15 @@ D:\AuctionsProject\Business.Interop\obj\Debug\net5.0\Business.Interop.csproj.Cor
 D:\AuctionsProject\Business.Interop\obj\Debug\net5.0\Business.Interop.dll
 D:\AuctionsProject\Business.Interop\obj\Debug\net5.0\ref\Business.Interop.dll
 D:\AuctionsProject\Business.Interop\obj\Debug\net5.0\Business.Interop.pdb
+D:\AuctionsProject — копия\Business.Interop\bin\Debug\net5.0\Business.Interop.deps.json
+D:\AuctionsProject — копия\Business.Interop\bin\Debug\net5.0\Business.Interop.dll
+D:\AuctionsProject — копия\Business.Interop\bin\Debug\net5.0\ref\Business.Interop.dll
+D:\AuctionsProject — копия\Business.Interop\bin\Debug\net5.0\Business.Interop.pdb
+D:\AuctionsProject — копия\Business.Interop\obj\Debug\net5.0\Business.Interop.csproj.AssemblyReference.cache
+D:\AuctionsProject — копия\Business.Interop\obj\Debug\net5.0\Business.Interop.GeneratedMSBuildEditorConfig.editorconfig
+D:\AuctionsProject — копия\Business.Interop\obj\Debug\net5.0\Business.Interop.AssemblyInfoInputs.cache
+D:\AuctionsProject — копия\Business.Interop\obj\Debug\net5.0\Business.Interop.AssemblyInfo.cs
+D:\AuctionsProject — копия\Business.Interop\obj\Debug\net5.0\Business.Interop.csproj.CoreCompileInputs.cache
+D:\AuctionsProject — копия\Business.Interop\obj\Debug\net5.0\Business.Interop.dll
+D:\AuctionsProject — копия\Business.Interop\obj\Debug\net5.0\ref\Business.Interop.dll
+D:\AuctionsProject — копия\Business.Interop\obj\Debug\net5.0\Business.Interop.pdb

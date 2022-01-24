@@ -23,6 +23,10 @@ namespace AuctionMVC.Controllers
 		public ActionResult Edit(int id)
 		{
 			AuctionDto dto = _auctionService.GetById(id);
+			if(dto==null)
+            {
+				return NotFound();
+            }
 			ViewData["AuctionHouseIds"] = new SelectList(_auctionHouseService.GetAll(),
 				dataValueField: nameof(AuctionHouseDto.Id),
 				dataTextField: nameof(AuctionHouseDto.Name));

@@ -11,7 +11,7 @@ namespace Business.Interop.Data
     {
         public int Id { get; set; }
         [Min(1)]
-        public int Price { get; set; }
+        public int? Price { get; set; }
         public AuctionDto Auction { get; set; }
         public int AuctionId { get; set; }
         public ParticipantDto Seller { get; set; }
